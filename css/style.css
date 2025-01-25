@@ -1,0 +1,244 @@
+body{
+    max-width: 300px;
+    min-width: 300px;
+    max-height: 250px;
+    min-height: 250px;
+    padding: 0;
+    margin:0
+}
+
+html{
+        max-width: 300px;
+        min-width: 300px;
+        max-height: 250px;
+        min-height: 250px;
+        padding: 0;
+        margin: 0;
+
+}
+.container{
+    background: #FE214B;
+    position: relative;
+    max-width: 300px;
+    min-width: 300px;
+    max-height: 250px;
+    min-height: 250px;
+    font-family: Arial, Helvetica   , sans-serif;
+    overflow: hidden;
+
+}
+
+.top-level-images{
+    position: relative;
+    top: -20px;
+}
+
+.image-sets{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+    overflow: hidden;
+    width: auto;
+    align-items: flex-start;
+}
+
+
+.left-side-image{
+    width: 200px;
+    height: 100px;
+    border-radius: 0 35px 75px 0;
+    object-fit: cover;
+}
+
+.right-side-image{
+    width: 120px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 15px 0 0 75px;
+}
+.experience-logo{
+    position: absolute;
+    top: 60px;
+    left: 55px;
+}
+
+.question{
+    text-align: center;
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+
+.buttons-container{
+    text-align: center;
+}
+
+.arrows{
+    position: absolute;
+    width: 58px;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.arrows:hover{
+    opacity: 0.5;
+}
+
+.left-arrow{
+    left: 0;
+}
+
+.right-arrow{
+    left: 240px;
+}
+
+.buttons{
+    padding: 8px;
+    background-color: #393485;
+    color: #fff;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+    width: 35%;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.buttons:hover{
+    background-color: #f5f500;
+    color: #000;
+}
+
+.scale-up-center {
+    -webkit-animation: scale-up-center 3.55s ease-in infinite alternate both;
+    animation: scale-up-center 3.55s ease-in infinite alternate both;
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.9);
+        opacity: 0.7;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.9);
+        opacity: 0.7;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.low-tag{
+    position: absolute;
+    top: 80%;
+    left: 67%;
+    width: 90px;
+}
+.adventure-title{
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
+
+.carousel{
+    display: flex;
+    overflow: scroll;
+    column-gap: 10px;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel-image{
+    width: 200px;
+    border-radius: 3px;
+}
+
+.explore-button{
+    padding: 8px;
+    background-color: #393485;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+    width: 50%;
+    cursor: pointer;
+    margin: 25px 10% auto;
+}
+.explore-button:hover{
+    background-color: #f5f500;
+    color: #000;
+}
+
+
+
+.scale-up-center-button {
+    -webkit-animation: scale-up-center 0.55s ease-in alternate ;
+    animation: scale-up-center 0.55s ease-in alternate ;
+}
+
+
+@-webkit-keyframes scale-up-center-button {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@keyframes scale-up-center-button {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.scale-up-center-explore {
+    -webkit-animation: scale-up-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+@-webkit-keyframes scale-up-center-explore {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+}
+@keyframes scale-up-center-explore {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+}
+
